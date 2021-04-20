@@ -1,7 +1,8 @@
-.container {  width: 50%; padding: 0.2em;   }
-.video { display: flex; align-items: center;  border: 1px solid lightgray; box-shadow: 3px 3px 5px 0px rgba(191, 191, 191, 0.5); cursor: pointer; transition: all 0.3s; }
+.container {  width: 25%; padding: 0.4em;  }
+.video {  cursor: pointer; transition: all 0.3s; }
 .video:hover { transform: scale(1.02); }
-.thumbnail { width: 40%; height: 100%; }
-.metadata { margin-left: 0.2em; }
-.title, .channel { margin: 0; font-size: 0.8rem; }
-.channel { font-size: 0.6rem; }
+.thumbnail { width: 100%;  }
+.metadata { margin-left: 0.2em; width: 100%;  }
+.title, .channel { margin: 0; font-size: 0.9rem; font-weight: bold;  word-break: normal; 
+    overflow: hidden;  white-space: nowrap;  text-overflow: ellipsis; }
+.channel { font-size: 0.8rem; font-weight: normal; margin: 1rem 0; }
